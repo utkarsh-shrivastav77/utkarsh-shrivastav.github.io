@@ -2816,19 +2816,14 @@ border-color: #f5a425;
 }
 
 #profile-pic{
-  display: block;
   position: absolute;
-  width: 300px;
-  top: 25%;
+  width: 350px;
+  height: 300px; /* Adjust the height to match the width for a perfect circle */
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 38%;
-  /* background-color: transparent; */
-  z-index: 2;
 }
-
-/* Conditions for phone/mobile screens */
 
 @media screen and (max-width: 400px)  {
   .smoothscroll {
